@@ -25,10 +25,11 @@
     color: rgb(15, 153, 187);
   }
 
-  p{
-    color:rgb(185, 182, 182);
+  p {
+    color: rgb(185, 182, 182);
     line-height: 25px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: justify;
   }
 
   .hero {
@@ -61,22 +62,120 @@
   }
 
   /* ACA EMPIEZA LA SECCION DOS */
-  .seccionDos{
+  .seccionDos {
     background-color: rgb(255, 255, 255);
     width: 500px;
     margin-top: 100px;
     margin-bottom: 100px;
     margin-left: 80px;
     align-items: center;
-    
   }
 
-  .titulo{
+  .titulo {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color:black;
+    color: black;
+    padding: 5px 0px;
   }
 
-   .parrafo{
-    margin: 10px;
-    
+  .parrafo {
+    margin: 25px;
+    margin-left: 250px;
+    margin-right: 10px;
+    width: 500px;
+  }
+
+  .imagen {
+
+    width: 400px;
+    display: block;
+    position: absolute;
+    /*Posiciona en coordenadas*/
+    top: 820px;
+    right: 400px;
+    margin-left: 250px;
+    margin-right: 10px;
+    border-radius: 5px;
+  }
+
+  hr {
+    margin-left: 250px;
+    margin-right: 10px;
+    width: 500px;
+    color: rgb(185, 182, 182);
+  }
+
+  /* ACA EMPIEZA LA SECCION TRES */
+  .seccionTres {
+    display: flex;
+    gap: 150px;
+    justify-content: center;
+    /* Centra horizontalmente */
+    align-items: center;
+    /* Centra verticalmente */
+    height: 300px;
+    /* Le damos altura para que se vea el centrado vertical */
+    background-color: #f8f4f4;
+
+  }
+
+  .grupo {
+    text-align: center;
+    height: 150px;
+    width: 400px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+  }
+
+  .parrafoGrupo {
+    text-align: center;
+  }
+
+  h1 {
+    margin-bottom: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: x-large;
+    font-weight: lighter;
+  }
+
+  span {
+    font-weight: bold;
+  }
+
+  /* ACA EMPIEZA LA SECCION CUATRO */
+  .seccionCuatro {
+    height: 400px;
+
+  }
+
+  .carrusel {
+    margin-top: 25px;
+    object-fit: cover;
+    position: relative;
+    object-position: top;
+    width: 100%;
+  }
+
+  /* ACA EMPIEZA LA SECCION CINCO */
+  .seccionCinco {
+    display: flex;
+    justify-content: center;
+    /* Centra horizontalmente */
+    align-items: center;
+    /* Centra verticalmente */
+    height: 500px;
+  }
+
+  .triangulos {
+    width: 100%;
+    /* la imagen ocupa todo el contenedor */
+    object-fit: cover;
+    object-position: top;
+  }
+
+  .started {
+    text-align: center;
+    padding: 50px;
+
+
   }

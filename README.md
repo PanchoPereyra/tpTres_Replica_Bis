@@ -1,5 +1,6 @@
-# PRACTICO Nº3
+# PRACTICO Nº3 - Bis
+_El objetivo de este trabajo práctico es replicar lo más fielmente posible el diseño de una página web._
 
 
 ### TECNOLOGIAS
-_Se utilia: HTML y CSS y FlexBox._
+_HTML, CSS y FlexBox._
